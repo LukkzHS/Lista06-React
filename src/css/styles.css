@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -31,7 +32,10 @@
     text-align: center;
     width: 380px;
     border: 1px solid rgba(175, 173, 173, 0.596);
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
   }
   
   .boxInfo p {
